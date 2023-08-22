@@ -1,1 +1,1 @@
-# tenzingyaltsen.github.io
+# gyaltsentenzin.github.io
