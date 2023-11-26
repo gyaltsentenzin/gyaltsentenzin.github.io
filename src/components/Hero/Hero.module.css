@@ -39,6 +39,12 @@
   margin-bottom: 52px;
 }
 
+.tibetandescription {
+  font-size: 25px;
+  font-family: var(--font-roboto);
+  margin-bottom: 52px;
+}
+
 .contactBtn {
   text-decoration: none;
   background-color: var(--color-primary);

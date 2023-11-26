@@ -6,7 +6,8 @@
     "endDate": "August, 2023",
     "experiences": [
       "Part of Uber's Targeting and Segmentation Engineering Team",
-      "Redesigned and optimized an end to end service"
+      "Redesigned and optimized an end to end service",
+      "Decoupled from a critical service and scaled the service from 150M to 1B computation"
     ],
     "imageSrc": "history/uber.png"
   },

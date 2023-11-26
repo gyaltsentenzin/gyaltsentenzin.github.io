@@ -7,6 +7,11 @@ export const Hero = () => {
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}> Hi, I am Tenzin</h1>
+        <p className={styles.tibetandescription}>
+          རྣམ་པ་ལྷན་རྒྱས་སྐུ་ཁམས་བཟང་། གུས་པའི་མིེང་ལ་བསྟན་འཛིན་རྒྱལ་མཚན་ཟེར་།
+          ད་ལྟ་ང་མཐོ་རིམ་སློབ་གྲ་རུ་གློག་ལས་ཚན་རིག་སྦྱོང་བཞིན་ཡོད་།
+          སློབ་རིམ་ཐོན་རྗེས་མཉེན་ཆས་འཆར་འགོད་ཆེད་ལས་པ་ཞིག་ཆགས་པའི་བསྒྲུབ་བྱ་ཡིན་།
+        </p>
         <p className={styles.description}>
           I'm a full-stack developer with experience in Java, JavaScript,
           Python. I am currently a student at Macalester College and I have a
