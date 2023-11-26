@@ -8,9 +8,6 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}> Hi, I am Tenzin</h1>
         <p className={styles.description}>
-          བཀྲིས་བདེ་ལེགས་། ངའི་་མིང་ལ་བསྟན་འཛིན་རྒྱལ་མཚན་ཟེས་།
-        </p>
-        <p className={styles.description}>
           I'm a full-stack developer with experience in Java, JavaScript,
           Python. I am currently a student at Macalester College and I have a
           demonstrated history at both startup and major technology corporation
