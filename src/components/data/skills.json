@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.svg"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "skills/c++.svg"
+  },
+  {
+    "title": "Swift",
+    "imageSrc": "skills/swift.png"
+  },
+  {
+    "title": "R",
+    "imageSrc": "skills/r.svg"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/mysql.png"
+  },
+  {
+    "title": "REST API",
+    "imageSrc": "skills/restapi.webp"
+  },
+  {
+    "title": "gRPC",
+    "imageSrc": "skills/grpc.png"
+  },
+  {
+    "title": "Spring MVC",
+    "imageSrc": "skills/springmvc.png"
+  }
+]

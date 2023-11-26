@@ -1,0 +1,33 @@
+[
+  {
+    "role": "Software Engineering Intern",
+    "organisation": "Uber Technologies Inc.",
+    "startDate": "May, 2023",
+    "endDate": "August, 2023",
+    "experiences": [
+      "Part of Uber's Targeting and Segmentation Engineering Team",
+      "Redesigned and optimized an end to end service"
+    ],
+    "imageSrc": "history/uber.png"
+  },
+  {
+    "role": "Software Engineering Intern",
+    "organisation": "Sparrow Charts",
+    "startDate": "May, 2022",
+    "endDate": "July, 2022",
+    "experiences": [
+      "Developed 10+ new features for Sparrow’s core software product used by 1000+ marketing users"
+    ],
+    "imageSrc": "history/sparrow.jpeg"
+  },
+  {
+    "role": "Software Engineering Career Prep Fellow",
+    "organisation": "Uber Technologies Inc.",
+    "startDate": "February, 2022",
+    "endDate": "November, 2022",
+    "experiences": [
+      "Attended bi-monthly workshops, learned standard industry practice and engineering competencies"
+    ],
+    "imageSrc": "history/uber.png"
+  }
+]
