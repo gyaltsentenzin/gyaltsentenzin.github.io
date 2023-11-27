@@ -25,7 +25,13 @@
     "title": "Lab Inventory Application",
     "imageSrc": "projects/labinventory.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "skills": [
+      "Java",
+      "Java jxl",
+      "Software Design",
+      "System Design",
+      "Product Management"
+    ],
     "demo": "https://www.example.com",
     "source": "https://github.com/gyaltsentenzin/LabInventoryUWCUSA"
   }
