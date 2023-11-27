@@ -1,27 +1,32 @@
 [
-    {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    }
-  ]
-  
+  {
+    "title": "MYSQL SPOTIFY SIMULATED DB",
+    "imageSrc": "projects/spotify.webp",
+    "description": "This project developed my understanding in databse management systems and query optimization",
+    "skills": ["MYSQL", "MARIA DB"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/gyaltsentenzin/MYSQL-SPOTIFY_DB"
+  },
+  {
+    "title": "Tetriz Puzzle for IOS",
+    "imageSrc": "projects/tetris.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": [
+      "Swift",
+      "X Code",
+      "Apple Sprite Kit",
+      "Game Design",
+      "Graphic Design"
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/gyaltsentenzin/TetrisGame"
+  },
+  {
+    "title": "Lab Inventory Application",
+    "imageSrc": "projects/labinventory.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/gyaltsentenzin/LabInventoryUWCUSA"
+  }
+]
