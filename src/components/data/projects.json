@@ -2,7 +2,7 @@
   {
     "title": "MYSQL SPOTIFY SIMULATED DB",
     "imageSrc": "projects/spotify.webp",
-    "description": "This project developed my understanding in databse management systems and query optimization",
+    "description": "This project developed my understanding in database management systems and query optimization",
     "skills": ["MYSQL", "MARIA DB"],
     "demo": "https://www.example.com",
     "source": "https://github.com/gyaltsentenzin/MYSQL-SPOTIFY_DB"
@@ -10,7 +10,7 @@
   {
     "title": "Tetriz Puzzle for IOS",
     "imageSrc": "projects/tetris.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "This project helped me develop fundamental of software development and design and learnt Swift to build IOS game.",
     "skills": [
       "Swift",
       "X Code",
@@ -24,7 +24,7 @@
   {
     "title": "Lab Inventory Application",
     "imageSrc": "projects/labinventory.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "This project was my first project that helped me develop fundemantal of programming and independently learnt to build a fully operational application",
     "skills": [
       "Java",
       "Java jxl",
