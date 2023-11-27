@@ -1,4 +1,4 @@
-# gyaltsentenzin.github.io
+# https://tenzingyaltsen.netlify.app/
 
 # React + Vite
 
