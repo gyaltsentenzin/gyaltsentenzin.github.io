@@ -5,9 +5,10 @@
     "startDate": "May, 2023",
     "endDate": "August, 2023",
     "experiences": [
-      "Part of Targeting and Segmentation Engineering Team",
-      "Redesigned and optimized an end to end service",
-      "Decoupled from a critical service and scaled the service from 150M to 1B computation"
+      "Redesigned an end-to-end Java backend redesign, decoupling from a core service endpoint.",
+      "Created gRPC endpoints, Kafka topics, and Terrablob storage and optimized the core computation algorithm.",
+      "Applied Test Driven Development for 100% test coverage and headed incremental shadow rollout.",
+      "Boosted data consistency by 90%, cut service costs by 50%, scaled to ~1B computations from 150M."
     ],
     "imageSrc": "history/uber.png"
   },
@@ -27,7 +28,9 @@
     "startDate": "May, 2022",
     "endDate": "July, 2022",
     "experiences": [
-      "Developed 10+ new features for Sparrow’s core software product used by 1000+ marketing users"
+      "Developed 10+ new features for Sparrow’s core software product used by 1000+ marketing users.",
+      "Integrated add-on for Docs and collaborated with Senior Engineer for end-to-end testing, bugs, and QA.",
+      "Automated and reduced customer’s data integration to GSuite products into a few seconds’ job."
     ],
     "imageSrc": "history/sparrow.jpeg"
   },
@@ -37,7 +40,8 @@
     "startDate": "February, 2022",
     "endDate": "November, 2022",
     "experiences": [
-      "Attended bi-monthly workshops, learned standard industry practice and engineering competencies"
+      "Attended bi-monthly workshops, learned standard industry practice and engineering competencies",
+      "Participated in one-on-one mentorship with Uber Engineers and assignments for conceptual mastery."
     ],
     "imageSrc": "history/uber.png"
   }
