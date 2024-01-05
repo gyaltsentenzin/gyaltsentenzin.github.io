@@ -13,17 +13,28 @@ export const Hero = () => {
           སློབ་རིམ་ཐོན་རྗེས་མཉེན་ཆས་འཆར་འགོད་ཆེད་ལས་པ་ཞིག་ཆགས་པའི་བསྒྲུབ་བྱ་ཡིན་།
         </p>
         <p className={styles.description}>
-          I'm a full-stack developer with experience in Java, JavaScript,
-          Python. I am currently a student at Macalester College and I have a
-          demonstrated history at both startup and major technology corporation
-          in the United States.
+          As an aspiring Software Engineer, I bring a blend of experience from
+          both startup and corporate environments. My ability to quickly adapt
+          to new technologies is complemented by a deep curiosity and drive to
+          tackle challenging problems. Currently, in my senior year at
+          Macalester College, I'm majoring in Computer Science and Political
+          Science. During my time at Macalester, I've had the opportunity to
+          collaborate with professors and classmates as a preceptor for Computer
+          Science courses. My professional journey includes enriching
+          experiences in software engineering with Sparrow Charts and Uber over
+          the past two summers. This year, my focus is on honing my skills in
+          backend engineering. I am eager to bring my gritty and collaborative
+          spirit to an entry-level role in your organization. Please feel free
+          to connect with me through LinkedIn or email me at
+          ttenzing@macalester.edu. For a more detailed overview of my work and
+          skills.
         </p>
-        <a
+        {/* <a
           href="mailto:tenzingyaltsen15@gmail.com"
           className={styles.contactBtn}
         >
           Contact me
-        </a>
+        </a> */}
       </div>
       <img
         src={getImageUrl("hero/heroImage.png")}

@@ -9,11 +9,11 @@ export const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        མྱོང་གཞི་སྙིང་པོ་། | Portfolio
+        མྱོང་གཞི་སྙིང་པོ་། ~ Portfolio
       </a>
       <div className={styles.menu}>
         <img
-          className={styles.menuBtn}
+          className={`${styles.menuBtn} ${!menuOpen && styles.menuNotOpen}`}
           src={
             menuOpen
               ? getImageUrl("nav/closeIcon.png")
