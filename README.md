@@ -2,7 +2,7 @@ Personal research website for [Tenzin Gyaltsen](https://gyaltsentenzin.github.io
 
 Built from the [Jon Barron](https://jonbarron.info/) academic website template. Hosted on GitHub Pages.
 
-## Updating content
+## Guide to update the content
 
 - **Bio & sections:** edit `index.html`
 - **Profile photo:** replace `images/TenzinGyaltsen.png`
