@@ -1,0 +1,44 @@
+[
+  {
+    "id": "mac-gpt",
+    "title": "Mac-GPT: A Fine-Tuned Campus Assistant for Macalester College",
+    "authors": "**Tenzin Gyaltsen**, Aalyan Arif Mahmood, Haris Ahmed, and Salman Ijaz.",
+    "venue": "Course project & Minnebar presentation, 2023",
+    "summary": "Fine-tuned a large language model on Macalester-specific data so students, faculty, and staff can ask natural-language questions about campus life, academics, and resources.",
+    "paper_url": "https://sessions.minnestar.org/sessions/1668",
+    "code_url": "https://github.com/comp484-IntroToAI/course-project-macgpt",
+    "x_url": "",
+    "image": "/images/publications/macgpt.jpg",
+    "image_alt": "Mac-GPT campus assistant project",
+    "award": "",
+    "bibtex": ""
+  },
+  {
+    "id": "spotify-db",
+    "title": "MySQL Spotify Database Emulator",
+    "authors": "**Tenzin Gyaltsen**.",
+    "venue": "Database systems project",
+    "summary": "Designed and implemented a relational schema and queries modeling Spotify's music catalog, users, playlists, and listening history using MySQL.",
+    "paper_url": "",
+    "code_url": "https://github.com/gyaltsentenzin/MYSQL-SPOTIFY_DB",
+    "x_url": "",
+    "image": "/images/publications/spotify-db.jpg",
+    "image_alt": "MySQL Spotify database emulator",
+    "award": "",
+    "bibtex": ""
+  },
+  {
+    "id": "tetris-puzzle",
+    "title": "Tetris Puzzle: iOS Game",
+    "authors": "**Tenzin Gyaltsen**, Lily Ewing, and Sheida Rashidi Ardestani.",
+    "venue": "Mobile app (Swift / UIKit), 2023",
+    "summary": "Built an iOS puzzle game inspired by Tetris and tangrams with custom levels, animations, and touch controls under Professor Paul Cantrell's guidance.",
+    "paper_url": "https://devgarden.macalester.edu/projects/87",
+    "code_url": "https://github.com/gyaltsentenzin/TetrisGame",
+    "x_url": "",
+    "image": "/images/publications/tetris.jpg",
+    "image_alt": "Tetris Puzzle iOS game",
+    "award": "",
+    "bibtex": ""
+  }
+]

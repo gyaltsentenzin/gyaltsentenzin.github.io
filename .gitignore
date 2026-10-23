@@ -1,0 +1,14 @@
+# Private instructions for local coding agents
+instruction.md
+.ipynb_checkpoints/
+
+# Local scaffold / backup dirs (not for publish)
+.dbaek-template/
+.tenzin-backup/
+.tools/
+.hugo_build.lock
+
+# Hugo build output (GitHub Actions publishes this)
+/public/
+/resources/_gen/
+.hugo_cache/

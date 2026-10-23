@@ -1,0 +1,13 @@
+main:
+  - name: Bio
+    url: /
+    weight: 10
+  - name: Projects
+    url: /#publications
+    weight: 20
+  - name: News
+    url: /#news
+    weight: 30
+  - name: CV
+    url: /uploads/resume.pdf
+    weight: 40

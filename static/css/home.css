@@ -1,0 +1,87 @@
+/* Jay Wang's reference styles are kept in reference-*.css.
+   These additions cover David's CV and semantic HTML/accessibility. */
+.pub-content .pub-summary { font-size: 1.0625rem; line-height: 1.55; margin: .65rem 0 .85rem; }
+.pub-content .pub-title a { box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.pub-content .pub-title a:focus-visible { background: hsla(0,85%,80%,.5); }
+#about, #publications { width: 100%; }
+.name-pic.svelte-f4d8od.svelte-f4d8od { width: 13.75rem; }
+.name-pic.svelte-f4d8od img.svelte-f4d8od { height: auto; object-fit: contain; }
+.pub-content { min-width: 0; }
+.citation { font-size: 1rem; margin-top: 6px; }
+.citation summary { cursor: pointer; font-weight: 500; }
+.citation pre { background: #fffbf7; border-radius: 5px; padding: 12px; overflow-x: auto; white-space: pre-wrap; overflow-wrap: anywhere; font-family: 'Roboto Mono', monospace; font-size: .875rem; }
+@media (max-width: 650px) { .pub .pub-content { flex: 1 1 100%; width: 100%; } }
+.add-more-button::before { content: '⊕'; font-weight: 700; margin-right: 5px; }
+.pub-content .pub-venue { margin-bottom: 5px; }
+[hidden] { display: none !important; }
+body { min-height: 100vh; }
+main.svelte-llasnv { padding-bottom: 3rem; }
+footer.svelte-s8w9zi.svelte-s8w9zi { position: static; }
+footer .footer { gap: 1.5rem; flex-wrap: wrap; }
+footer .footer-item { display: block !important; }
+footer a { white-space: nowrap; }
+.news-content { list-style: none; margin: 0; }
+button { font: inherit; color: inherit; border: 0; cursor: pointer; }
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid #367ac5; outline-offset: 4px; }
+.name-text strong { font-weight: 800; }
+.content a.highlight-link { background: hsla(0,85%,80%,.5); padding: 0 3px; border-radius: 2px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.content a.highlight-link:hover { background: hsla(0,85%,76%,.9); }
+.pub-content { flex: 1; }
+.pub-content p { margin-top: 0; }
+.pub-content .pub-icons a { background: #f7a1a180; padding: 0 3px; border-radius: 2px; }
+.pub-content .award-highlight { align-self: flex-start; font-size: 1rem; }
+#cv { margin-top: 5rem; }
+.cv-intro { margin: 1.25rem 1.56rem .75rem; font-size: 1.125rem; }
+.cv-controls { display: flex; gap: 1rem; padding: 0 1.56rem 1rem; }
+.cv-controls button { background: #f7a1a180; border-radius: 5px; padding: .3rem .5rem; font-size: 1rem; }
+.timeline { padding: 0 1.56rem 1.25rem; }
+.timeline details { padding: .65rem 0; border-top: 1px solid #b8d3ee; font-size: 1.125rem; }
+.timeline summary { cursor: pointer; }
+.timeline summary span { font-family: Raleway, sans-serif; color: #666; margin-right: 1rem; }
+.timeline summary i { display: block; font-size: 1rem; color: #666; margin-left: 1rem; }
+.timeline details p { margin-bottom: 0; }
+@media (max-width: 480px) {
+  .news-block.svelte-f4d8od.svelte-f4d8od, .pub-block.svelte-f4d8od.svelte-f4d8od { width: 100%; }
+  footer .footer { flex-direction: column; text-align: center; padding: 0 1.5rem; box-sizing: border-box; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Keep publication figures at their natural aspect ratios without a padded frame. */
+.pub-image { flex: 0 0 250px; margin-right: 20px; }
+.pub.svelte-f4d8od .pub-image img.svelte-f4d8od { display: block; max-width: 100%; height: auto; background: transparent; border-radius: 0; margin: 0; }
+.personal-page { padding: 0 1.5rem; box-sizing: border-box; }
+.page-nav, .cv-actions, .cv-nav { display: flex; flex-wrap: wrap; gap: .75rem 1.25rem; }
+.page-nav { margin: 1.5rem 0 2rem; }
+.page-nav a:first-child { margin-right: auto; font-weight: 700; }
+.page-nav a[aria-current] { background: #d8eaff; }
+.personal-page .name.svelte-f4d8od { margin-left: 0; padding: 0 8px; }
+.notes-content { min-height: 45vh; font-size: 1.25rem; margin-top: 2rem; }
+.cv-summary { font-size: 1.2rem; line-height: 1.6; }
+.cv-actions { margin: 1rem 0; }
+.cv-actions button { background: #f7a1a180; border-radius: 3px; }
+.cv-nav { padding: 1rem 0; border-block: 1px solid #b8d3ee; margin: 1.5rem 0; }
+.personal-page .cv-controls { padding-left: 0; }
+.cv-section { scroll-margin-top: 1.5rem; margin-bottom: 2rem; }
+.cv-section h2 { font-family: Raleway, sans-serif; font-size: 1.6rem; background: #d8eaff; padding: .65rem 1rem; border-radius: 6px; }
+.cv-section .timeline { padding: 0; }
+.cv-role { margin: .4rem 0 .2rem 1rem; }
+.cv-entry { padding: .8rem 0; border-top: 1px solid #b8d3ee; font-size: 1.125rem; }
+.cv-entry p { margin: .35rem 0 0; }
+.cv-date { display: inline-block; color: #666; margin-right: 1rem; }
+.cv-publications { margin-top: 5rem; }
+.cv-publications .pub-block.svelte-f4d8od { width: 100%; }
+@media (max-width: 650px) {
+  .pub-image { flex-basis: auto; margin: 0 0 1rem; max-width: 100%; }
+  .personal-page .name.svelte-f4d8od { font-size: 2rem; }
+}
+@media (max-width: 480px) {
+  .block-name.svelte-f4d8od.svelte-f4d8od { font-size: 1.35rem; left: 12px; height: auto; top: -2rem; line-height: 1.5; padding-top: 0; }
+}
+@media print {
+  .page-nav, .cv-nav, .cv-controls, .cv-actions, footer, .pub-image, .citation { display: none !important; }
+  .page.svelte-f4d8od.svelte-f4d8od { display: block; }
+  .personal-page { padding: 0; }
+  .cv-section, .pub { break-inside: avoid; }
+  .content a { background: none; }
+  .cv-section h2 { background: none; border-bottom: 1px solid #777; padding-left: 0; }
+}

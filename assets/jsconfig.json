@@ -1,0 +1,9 @@
+{
+ "compilerOptions": {
+  "paths": {
+   "*": [
+    "../../../../../var/folders/_t/f6gdq2kn6j5b82ctmcbbl97h0000gn/T/cursor-sandbox-cache/05912c0ff09ef04df53dada07ca09fc4/go-mod/github.com/!hugo!blox/hugo-blox-builder/modules/blox-tailwind@v0.10.0/assets/*"
+   ]
+  }
+ }
+}

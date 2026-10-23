@@ -1,0 +1,22 @@
+<section aria-labelledby="publications-title" class="block-tb svelte-f4d8od" id="publications">
+{{ range $index, $pub := site.Data.publications }}
+<div class="pub-block svelte-f4d8od {{ if eq $index 0 }}has-block-name{{ end }}">
+{{ if eq $index 0 }}<h2 class="block-name svelte-f4d8od" id="publications-title">Featured Projects</h2>{{ end }}
+{{ $primary := .paper_url }}{{ if not $primary }}{{ $primary = .code_url }}{{ end }}
+<div class="news-content svelte-f4d8od"><article class="pub svelte-f4d8od" id="{{ .id }}">
+{{ with $primary }}<a class="pub-image" href="{{ . }}" aria-label="Open {{ $pub.title }}"><img class="svelte-f4d8od" src="{{ $pub.image }}" alt="{{ $pub.image_alt }}" loading="lazy" decoding="async"></a>{{ else }}<span class="pub-image"><img class="svelte-f4d8od" src="{{ $pub.image }}" alt="{{ $pub.image_alt }}" loading="lazy" decoding="async"></span>{{ end }}
+<div class="pub-content svelte-f4d8od">
+<h3 class="pub-title svelte-f4d8od">{{ with $primary }}<a href="{{ . }}">{{ $pub.title }}</a>{{ else }}{{ $pub.title }}{{ end }}</h3>
+<p class="pub-author svelte-f4d8od">{{ .authors | markdownify }}</p>
+<p class="pub-venue svelte-f4d8od">{{ .venue }}</p>
+{{ with .summary }}<p class="pub-summary">{{ . }}</p>{{ end }}
+<p class="pub-icons svelte-f4d8od">
+{{ with .paper_url }}<a href="{{ . }}">Link</a>{{ end }}
+{{ with .code_url }}<a href="{{ . }}">Code</a>{{ end }}
+{{ with .x_url }}<a href="{{ . }}">X</a>{{ end }}
+</p>
+{{ with .award }}<span class="award-highlight svelte-f4d8od">{{ . }}</span>{{ end }}
+{{ with .bibtex }}<details class="citation"><summary>BibTeX</summary><pre>{{ . }}</pre></details>{{ end }}
+</div></article></div></div>
+{{ end }}
+</section>
